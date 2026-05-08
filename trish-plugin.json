@@ -1,0 +1,14 @@
+﻿{
+  "name": "trishPlugin",
+  "version": "1.0.0",
+  "description": "Example Trish dynamic plugin installed from a Git repository.",
+  "entry": "helloGit.ps1",
+  "shell": "powershell",
+  "os": ["windows"],
+  "commands": [
+    {
+      "name": "hello-git",
+      "description": "Print a hello message from a Git-hosted dynamic plugin."
+    }
+  ]
+}
